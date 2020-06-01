@@ -1,0 +1,17 @@
+Code book for Course project
+
+You can download original data set from this url
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+
+I merged train and test set and labeled with activities
+and aloso grouped by whole dataset by subject_id and acitiviy labels.
+
+Among 561 vairables, 
+I extracted 66 columns data whose column names contains mean() or std()
+
+So, my tidy set code books are each column's mean  grouped by subject_id and activity labels.
+
+subject_id: each id of subject get trained or tested
+activity_nm: factor variables for acitivity of subject
+other columns: mean( columns of every mean or std variables ) of each subject_id, acitivity_nm
+
