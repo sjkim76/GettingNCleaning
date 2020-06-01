@@ -28,6 +28,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 # Code book for Course project
 
+
 I merged train and test set and labeled with activities
 and aloso grouped by whole dataset by subject_id and acitiviy labels.
 
